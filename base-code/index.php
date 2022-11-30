@@ -48,9 +48,8 @@
 
 		<main class="carousel">
 			<div class="d-flex">
-				<button class="border-0 prev">
-					< </button>
-						<button class="border-0 next"> > </button>
+				<button class="border-0 prev"> < </button>
+					<button class="border-0 next"> > </button>
 			</div>
 		</main>
 
