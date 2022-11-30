@@ -28,10 +28,10 @@
 		<!-- Begin::your code -->
 
 		<!-- Begin::Header -->
-		<header class="header">
+		<header class="header rounded-top m-2">
 			<div class="row">
 				<div class="col border-end py-2 d-flex justify-content-start align-items-center">
-					<h1 class="px-4">Preview</h1>
+					<h1 class="px-4 text-black-50">Preview</h1>
 					<a class="link_approved py-2 px-4 rounded" href="#">
 						<span><i class="fa-solid fa-bars"></i></span>
 						Approved
