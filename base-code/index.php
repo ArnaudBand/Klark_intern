@@ -79,7 +79,7 @@
 			<div class="album py-5 bg-light">
 				<div class="container">
 
-					<div class="li_popup">
+					<div class="display-array">
 					</div>
 				</div>
 			</div>
