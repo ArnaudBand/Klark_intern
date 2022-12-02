@@ -5,6 +5,41 @@ body {
   overflow-x: hidden;
 }
 
+.header {
+  background-color: rgba(107, 189, 243, 0.632);
+}
+
+.link_approved {
+  color: #000;
+  background-color: #a3f6a3ae;
+}
+
+.link_approved:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.link_approved span .fa-solid:hover {
+  color: #fff;
+}
+
+.li {
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 0.6rem;
+  margin: 0.6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card img {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
 /* 
 put your css styles here, incase you dont use scss
 
