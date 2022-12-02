@@ -1,5 +1,7 @@
 // put your custom js in the file
 
+//  Store the data in the array
+
 const array = [
   {
     imageSrc: 'https://images.unsplash.com/photo-1664575196851-5318f32c3f43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60',
@@ -129,10 +131,11 @@ const array = [
     twitterDefault: 'This is a twitter default',
     facebookDefault: 'This is a facebook default',
   },
-]
+];
 
-const liPopup = document.querySelector('.li_popup');
+const display_array = document.querySelector('.display-array');
 
+//  Loop through the array and display the data
 
 const displayArray = (array) => {
   const li = document.createElement('div');
@@ -153,9 +156,9 @@ const displayArray = (array) => {
       </div>
     </div>
   </div>
-</div>`
+</div>`;
   });
-  liPopup.appendChild(li);
+  display_array.appendChild(li);
 
 }
 
